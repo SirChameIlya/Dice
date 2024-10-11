@@ -114,7 +114,6 @@ class Die //models one single dice cube
     vertex(diceX, diceY);
     endShape();
     stroke(colorR, colorG, colorB);
-    //stroke(255, 0, 0);
     beginShape();
     vertex(diceX+5, diceY+5);
     vertex(diceX+20, diceY+5);
