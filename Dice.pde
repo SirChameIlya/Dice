@@ -19,7 +19,6 @@ void draw() {
      
     }
   }
-  System.out.println(sum);
   textAlign(CENTER);
   textSize(40);
   text("Total: " + sum, 300, 590);
