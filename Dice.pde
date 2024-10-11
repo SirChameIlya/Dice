@@ -29,11 +29,11 @@ void mousePressed()
   redraw();
   sum = 0;
 }
-class Die //models one single dice cube
+class Die
 {
   int diceX, diceY;
   int roll = (int)(Math.random() * 6 + 1);
-  Die(int x, int y) //constructor
+  Die(int x, int y)
   {
     diceX = x;
     diceY = y;
